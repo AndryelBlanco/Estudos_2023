@@ -3,7 +3,7 @@
   ## Rotas Sem express - Apenas com o módulo nativo
     
     - Estrutura base sem Express:
-      ```
+    
         const http = require("http"); //Utilizando Módulo nativo HTTP
         const port = 4000; //Definir porta 
 
@@ -24,6 +24,16 @@
         console.log("Server iniciado em http://localhost:",port);
       }); //"Iniciar" o server
 
-      ```
+    
     - Para usar o Nodemon:
-      -
+      -   "dev": "nodemon server.js"
+
+ 
+## Com Express
+ - npm install express
+ - Seguir o padrão do app.js
+   - Importar o Express 
+   - Mapear as rotas
+    
+ - Para interpretar JSON = app.use(express.json())
+    
