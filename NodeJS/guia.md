@@ -37,3 +37,11 @@
     
  - Para interpretar JSON = app.use(express.json())
     
+
+## Para usar o MongoDB 
+  - Instalar Mongoose
+  - Configurar conexão com BD
+  - Configurei um .ENV pq futuramente vou usar esse bd
+  - Mongoose tem o Schema, onde é possível criar tipo uma DTO
+  - Interessante fazer um controller pra terminar o MVC
+  - Criar as rotas
