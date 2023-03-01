@@ -5,7 +5,6 @@ const bookSchema = new mongoose.Schema(
     id: {type: String},
     Title: {type: String, required: true},
     Author: {type: String, required: true},
-    CreatedAt: {type: Date, required: true}
   }
 );
 

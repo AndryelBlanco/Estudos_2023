@@ -45,3 +45,9 @@
   - Mongoose tem o Schema, onde é possível criar tipo uma DTO
   - Interessante fazer um controller pra terminar o MVC
   - Criar as rotas
+  - Criamos um arquivo index.js para as rotas, mas criamos outros .js para cada mapear as rotas de cada controller
+
+
+## Atualizações do CRUD
+  - Nesse ponto o projeto está bem melhor organizado
+  - Seguindo padrão MVC
