@@ -51,3 +51,5 @@
 ## Atualizações do CRUD
   - Nesse ponto o projeto está bem melhor organizado
   - Seguindo padrão MVC
+
+## Criando um Novo Schema
