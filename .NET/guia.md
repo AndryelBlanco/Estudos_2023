@@ -58,3 +58,27 @@
 
     - É só fazer isso?
       - Depende, as vezes são necessárias alterações para melhor atender o projeto, porém o conceito segue o mesmo
+
+## Azure Devops
+
+    - Ferramenta da microsoft
+    - Ajuda a controlar todo fluxo do projeto
+    - Existe versão gratuita e versão paga
+
+
+## Sprint no Azure
+
+  - Normalmente definimos 5 dias de trabalhos para cada sprint 
+  - Definimos quantos devs vão trabalhar e sua capacidade
+
+
+## Primeira Sprint
+
+  - Basicamente é feita para configuração
+  - Configurar todo o projeto ( Classes, Configurações do projeto, etc... )
+  - Configurar ferramentas extras
+
+  - Na primeira sprint vou fazer só o cadastro de usuário
+  - Criamos a primeira USER STORY
+  - Criamos nossas tasks na user story
+  - Melhor ter várias tasks com objetivos pequenos do que tasks com objetivos muito grandes
