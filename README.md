@@ -9,23 +9,11 @@
 
 
 - **Por onde começar ?**
-    - **Revisar Velhos Amigos**
-        - Javascript
-            - **Promisses** -> Entender completamente como funcionam e quais as vantagens e desvantagens
-            - **ES Modules** -> Revisar os conceitos
-        - React JS
-            - **Boas Praticas** -> Revisar boas praticas e como estruturar um projeto **ReactJS**
-            - **Performance** -> Estudar como melhorar a performance de projetos **ReactJS**
-            - **Gerenciador de Pacotes** -> Revisar **npm** e **pnpm**
-
-    - **Novas jornadas**
-        - **TS** -> Estudar a fundo Typescript e como usar em projetos 
-        - **NodeJS** -> Primeiro aprender a base para poder avançar em projetos que necessitam de criação de API e aprimorar minhas skills de backend
-        - **API REST** -> Revisar os padrões e boas práticas
-        - **BD** -> Estudar bancos de dados relacionais e aprimorar skills  
-        - **Docker** -> Estudar e entender como funcionam e como podem ser aplicados no dia-a-dia
-        - **NextJS** -> Estudar as suas bases e entender as funcionalidades que o NextJS possui
-
+    - **O Objetivo mudou**
+        - .NET é o principal
+        - API em .Net core
+        - Docker
+        - Testes Unitários
 
 * **Como o repo vai funcionar ?**
     - Sempre que eu iniciar os estudos ou revisões irão ser criadas pastas no repositório e cada pasta vai conter um arquivo .MD para anotações, algumas pastas poderão ter códigos e mini projetos
@@ -33,4 +21,4 @@
 
 ##
 
-:calendar: [**Atualizado em 23/02/2023**]
+:calendar: [**Atualizado em 20/03/2023**]
