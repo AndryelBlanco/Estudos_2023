@@ -82,3 +82,36 @@
   - Criamos a primeira USER STORY
   - Criamos nossas tasks na user story
   - Melhor ter várias tasks com objetivos pequenos do que tasks com objetivos muito grandes
+
+
+## Configurando o Repositório
+
+  - É possível criar o repositório pela ferramenta de Repos da Azure DevOps
+  - Fazendo isso basta clonar o projeto e seguir trabalhando
+  - Não esqueça de marcar a tarefa como concluída hehe
+
+## Organização de pastas
+
+  - SRC -> Vai conter os projetos
+  - Tests - > Projetos de testes unitários
+  - SRC -> Backend -> Para quando existem mais projeto como mobile, backend e etc...
+  - Shared -> Um projeto para armazenar as exceptions para exceptions customizadas
+
+## Necessário configurar as dependências
+
+  - Pode ser feito no inicio ou no andar do projeto
+
+## Configurar o gitFlow
+
+  - Criar uma branch develop a partir da master
+  - Trocar para a develop
+  - git flow init
+  - qual branch é de prod ? Vamos usar a master
+  - Para fazer o desenvolvimento ? Develop
+  - Demais vamos usar apenas enter e usar o padrão
+
+## Configurar o SonarCloud
+
+  - Criar token para o Sonar no DevOps
+  - Criar a organização no Sonar
+  - Instalar a extensão do Sonar no devops
