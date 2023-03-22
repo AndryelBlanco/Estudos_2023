@@ -115,3 +115,19 @@
   - Criar token para o Sonar no DevOps
   - Criar a organização no Sonar
   - Instalar a extensão do Sonar no devops
+  - Para usar o pipeline na azure gratuito é necessário deixar o repo privado e preencher um form
+
+## Criar repo para armazenar as infos do usuário
+
+  - Configurar develop para só aceitar PR
+  - Vamos criar o Schema no MySQL pelo código
+  - Instalar o plugin DAPPER no Infrastructure
+  - Criamos a migration dentro do Infra
+  - Criamos uma classe para o acesso ao database
+  - Caso não exista a tabela no DB, vamos executar uma query para criar a table  
+  - Necessário colocar isso no Program.cs antes do app.run para atualizar antes da api iniciar
+
+  - O AppSettigns.json vai conter tudo que o projeto vai utilizar
+  - No AppSettigns.development vai o que é só do ambiente de Dev, tipo o npm i package -D
+  - Como o DatabaseName é global vou colocar no Appsettigns, já a connectionString vai no development pq muda de acordo com o ambiente
+  - 
