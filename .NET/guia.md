@@ -130,4 +130,32 @@
   - O AppSettigns.json vai conter tudo que o projeto vai utilizar
   - No AppSettigns.development vai o que é só do ambiente de Dev, tipo o npm i package -D
   - Como o DatabaseName é global vou colocar no Appsettigns, já a connectionString vai no development pq muda de acordo com o ambiente
+  - Ao iniciar o APP, caso não exita o db o próprio código já vai criar
+  - Para melhorar o código, vamos implementar uma função para pegar a connection string em domain
+
+
+## Criando a tabela para armazenar os dados do usuário
+
+  - Fazer via código
+  - Fazer o versionamento dessas tabelas
+  - Cada versão vai implementar uma classe do fluent migrator
+  - para senha vamos usar HASH então vamos deixar com 2000 caracteres
+  - Dentro do fluent migrator já existe um controle de versão, mas precisamos usar isso
+  - Importante lembrar de criar o scopo do migrationExtension
+  - Vamos criar uma extension para os services pois não somente as Injec Deps do migrator vão ser necessárias, como as do repositórios
+  - Após isso é só adicionar no Program como um service
+  - Lembrar sempre de fazer o commit
+
+
+## Criar classes repositório
+
+  - Criar uma pasta em Infra para melhorar as estruturas
+  - Vamos precisar de um contexto deve ser criada apenas uma vez e dps só alterar para compor o projeto
+  - Aplicar todas configurações que foram definidas no context ao onModelcreating
+  - Criar a entidade para configurar e conectar com a tabela
+  - Criamos uma entidade base para que as outras classes possam herdar o que é de todos
+  - Vamos passar a ConnectionString por injeção de deps
+  - Uma interface por responsabilidade para manter o SOLID
+  - Vamos ter repositorio de leitura e outro de escrita
+  - Para acessar a tabela vamos usar o context
   - 
