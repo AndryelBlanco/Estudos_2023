@@ -158,4 +158,19 @@
   - Uma interface por responsabilidade para manter o SOLID
   - Vamos ter repositorio de leitura e outro de escrita
   - Para acessar a tabela vamos usar o context
-  - 
+  - Só vamos persistir se tudo der certo, se nada der certo nada vai ficar no bancos
+  - UnityOfWork
+  - Criamos um Dispose para liberar a memória que foi usada na unidade de trabalho
+  - Adicionamos as deps injections em Bootstrapper
+  
+## Criar regra de negócio para registrar usuário
+
+  - Primeira coisa que a regra de negócios vai receber é o JSON com as infos
+  - Criamos as pastas Request e Response para armazenar e tratar o que for necessário dentro de seu contexto
+  - Vamos validar cada campo que vamos receber individualmente 
+  - Vamos usar um arquivo de recurso
+  - São uteis até para fazer traduções
+  - Para acessar esse arquivo basta usar o nome dele e importar o recurso
+  - Para forçar a usar outro idioma basta usar o Resource.Culture e CultureInfo
+  - Separar os usecases para cada caso, seguinto o principio S de SOLID
+  
