@@ -174,3 +174,25 @@
   - Para forçar a usar outro idioma basta usar o Resource.Culture e CultureInfo
   - Separar os usecases para cada caso, seguinto o principio S de SOLID
   
+
+## Custom Exceptions
+
+  - São importantes pois a mensagem retornada para o front pode mostrar informações cruciais que não devem vazar
+  - Podemos customizar com uma mensagem onde o suporte pode facilmente entender e saber onde fica o problema
+  - Criamos um arquivo base de exceptions 
+  - Criamos exceptions variadas
+
+## Salvar infos no Banco de Dados
+
+  -  Vamos usar nosso repo
+  -  Vamos usar o automapper para mapear a entidade
+  -  Na API vamos configurar o automapper para funcionar como injeção de deps
+  -  Vamos criptografar a senha na regra de negócio
+  -  Se você quiser manter o nome da tabela diferente do nome da entidade, podemos mapear na classe
+
+## Criptografando a senha
+
+  - Vamos usar outra forma de injeção de deps
+  - Toda vez que alguem precisar da classe, vamos usar um new e passar a chave adicional que fica no appsettings
+  - Quando o usuário faz login, retornamos um token para usar nas próximas requisições
+  - Vamos usar o JWT
