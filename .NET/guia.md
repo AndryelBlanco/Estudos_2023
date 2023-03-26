@@ -196,3 +196,16 @@
   - Toda vez que alguem precisar da classe, vamos usar um new e passar a chave adicional que fica no appsettings
   - Quando o usuário faz login, retornamos um token para usar nas próximas requisições
   - Vamos usar o JWT
+
+
+## Validando E-mail já existente
+
+  - Vamos usar nosso repo readonly
+  - Buscamos no banco, caso exista retornamos um erro
+
+## Endpoint registrar usuário
+
+  - Vamos refatorar o controller
+  - por padrão vamos deixar os endpoints com letra minuscula
+  - Configurar isso no program com builder.Services.AddRouting(option => option.LowercaseUrls = true);
+  - 
